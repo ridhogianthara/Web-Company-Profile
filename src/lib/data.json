@@ -1,0 +1,186 @@
+{
+  "services": [
+    {
+      "title": "Datacenter",
+      "desc": "Build and Maintenance",
+      "image": "https://images.stockcake.com/public/3/e/a/3ea05df5-b726-415f-bd90-71cb7bf6b032_large/futuristic-data-center-stockcake.jpg"
+    },
+    {
+      "title": " Infrastructure",
+      "desc": "Networking and Maintenance",
+      "image": "https://i.pinimg.com/1200x/6d/0a/5a/6d0a5ad41bcdf40461a76ea9aa6cdc56.jpg"
+    },
+    {
+      "title": "Security ",
+      "desc": "Endpoint, Data Encryption and Email Protection",
+      "image": "https://i.pinimg.com/1200x/0f/7a/99/0f7a996897b6d87b248fb9dcd18bb2e7.jpg"
+    },
+    {
+      "title": "Virtualisation ",
+      "desc": "Virtual Application and Virtual Desktop",
+      "image": "https://i.pinimg.com/1200x/13/f9/9d/13f99dc7ef69aae9d010fc838a55490a.jpg"
+    },
+    {
+      "title": "Software and Hardware",
+      "desc": "Software and Hardware installations",
+      "image": "https://i.pinimg.com/1200x/90/99/bd/9099bde84e1e335918560aa2f00fd689.jpg"
+    }
+  ],
+  "Product": [
+    {
+      "name": "IBM",
+      "image": "https://i.pinimg.com/736x/81/29/1b/81291be958924bf66c64a1a16171302d.jpg"
+    },
+    {
+      "name": "HP",
+      "image": "https://i.pinimg.com/1200x/dc/a3/7e/dca37efcd667321fcddaaaf94503493a.jpg"
+    },
+    {
+      "name": "DELL",
+      "image": "https://i.pinimg.com/1200x/68/36/2c/68362c0e40159d4ee3b1af594b0b056c.jpg"
+    },
+    {
+      "name": "CISCO",
+      "image": "https://i.pinimg.com/1200x/72/09/ff/7209ff7a406cdc9fe04db8215dfe5ecb.jpg"
+    }
+  ],
+  "Client": [
+    {
+      "name": "GUCCITEX",
+      "image": "https://www.lokerbandung.id/wp-content/uploads/2022/04/Lowongan-Kerja-Pattern-Maker-di-PT.-Gucci-Ratu-Textile-Industry-Guccitex-219x126.png"
+    },
+    {
+      "name": "BRITISH AMERICAN TOBACCO ",
+      "image": "https://i.pinimg.com/736x/f3/c5/63/f3c563ae179edd70a53577ee7ccc4889.jpg"
+    },
+    {
+      "name": "SEQUISLIFE",
+      "image": "https://aaji.or.id/file/uploads/company/Sequis_Logo_withSlogan_page-0001.jpg"
+    },
+    {
+      "name": "MITSUBISHI",
+      "image": "https://i.pinimg.com/1200x/21/b1/36/21b1362f4b0dec674578aceb00bfebcf.jpg"
+    },
+    {
+      "name": "HONDA",
+      "image": "https://i.pinimg.com/736x/a5/ea/c8/a5eac89ee55ade32ba75162a2ccbebd1.jpg"
+    },
+    {
+      "name": "PRUDENTIAL",
+      "image": "https://i.pinimg.com/736x/ed/9f/6c/ed9f6c8f3dfebe4d9ed50f57f88d12c8.jpg"
+    },
+    {
+      "name": "BLUESCOPESTEEL",
+      "image": "https://www.nsbluescope.com/id/wp-content/uploads/sites/6/2021/08/ns-bluescope-logo.jpg"
+    },
+    {
+      "name": "ACE HARDWARE",
+      "image": "https://i.pinimg.com/1200x/77/26/32/772632f0d98fde38ba1be74f0bcb6af9.jpg"
+    },
+    {
+      "name": "FIN NET",
+      "image": "https://media.licdn.com/dms/image/v2/D560BAQHM2CussFKp4A/company-logo_200_200/B56ZcL3kBlH4AI-/0/1748250805554/pt_finnet_indonesia_logo?e=2147483647&v=beta&t=etBzGWa72_h0DEDTosCW5rPpEU-jzhD2CxVPULEtMhs"
+    },
+    {
+      "name": "BENTOEL GROUP",
+      "image": "https://img.inews.co.id/media/1200/files/inews_new/2019/Ilustrasi/bentoel_ist.jpg"
+    },
+    {
+      "name": "OCBC NISP",
+      "image": "https://cdn.infobrand.id/images/img/posts/2018/08/02/bank-ocbc-nisp-berhasil-bukukan-pertumbuhan-laba-18-yoy.jpg"
+    },
+    {
+      "name": "SANSAN SAUDARATEX JAYA",
+      "image": "https://dnatek-solusi.com/images/sansan.jpg"
+    },
+    {
+      "name": "JAYA MAKMUR",
+      "image": "https://dnatek-solusi.com/images/logo-JM.jpg"
+    },
+    {
+      "name": "BPJS KETENAGAKERJAAN",
+      "image": "https://asset.kompas.com/crops/X5_yQrnA3nJOf1oTrqqjNYJOnnI=/0x0:750x500/750x500/data/photo/2019/12/18/5dfa05f29d28a.jpg"
+    },
+    {
+      "name": "DISKOMINFO BANDUNG",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDa34HpjgoJg0vTaoqp-s9-cjHERL2Li6OtA&s"
+    },
+    {
+      "name": "DISKOPINDAGTAN KOTA CIMAHI",
+      "image": "https://dnatek-solusi.com/images/logo_cimahi.jpg"
+    },
+    {
+      "name": "GPI LOGISTICS",
+      "image": "https://media.licdn.com/dms/image/v2/C560BAQHZBol3NycORQ/company-logo_200_200/company-logo_200_200/0/1673924054730/pt_gpi_logistics_logo?e=2147483647&v=beta&t=bdJYDPOWHoUd9phjXo2VFvHxKgtP0-x5XEUjqgnC9m0"
+    },
+    {
+      "name": "ELEVANIA",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ80nXBtJNj65Gly27B52ftCGQIU3qTCvDAkA&s"
+    },
+    {
+      "name": "BANDUNG TOUR ON BUS",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKh1DTOPd0zYsW0uATvIocns6IbUcB_hZsfA&s"
+    },
+    {
+      "name": "MRT",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/MRT_Jakarta_logo_vertical.svg"
+    },
+    {
+      "name": "PUTRA KANA",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/06/78/7c/06787c81-3137-e722-64f5-f035038870b0/ami-identity-d73daba3ab95f87b03c27a826e4d9276-2025-07-16T20-05-03.383Z_cropped.png/1200x630cw.png"
+    },
+    {
+      "name": "KEMENKUMHAM",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXv0aT9K7wpwRJLjNBP1GfHLBrMu2N2aUpYw&s"
+    },
+    {
+      "name": "BAKRIE SUMATRA",
+      "image": "https://cakapinterview.com/wp-content/uploads/2024/12/PT-Bakrie-Sumatera-Plantations-Tbk-01.jpg"
+    },
+    {
+      "name": "UNIVERSITAS BAKRIE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEm40uX5ciQQxT0aeN0Jfx4z4hyU9usdTlPg&s"
+    },
+    {
+      "name": "BANDUNG ALLIANCE INTERNASIONAL SCHOOL",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaLR1eJcQPfl78DyI9MXDNFCGSx91R4vEmm5ZSo7j-zjpuA5ur"
+    },
+    {
+      "name": "BANK BJB",
+      "image": "https://lokerbumn.com/wp-content/uploads/2024/12/PT-Bank-Pembangunan-Daerah-Jawa-Barat-dan-Banten-Tbk-Bank-BJB-02.jpg"
+    },
+    {
+      "name": "AWANA",
+      "image": "https://dnatek-solusi.com/images/awana.jpg"
+    },
+    {
+      "name": "DPKAD KOTA BANDUNG",
+      "image": "https://dnatek-solusi.com/images/dpkad.jpg"
+    },
+    {
+      "name": "DAYA MOTOR",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRozMCfHM9rZ41mL58ZcOnBC0-43tqtNOi3dg&s"
+    },
+    {
+      "name": "SINARMAS",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWYws_RksUVWqxRdbX9rGTS3bvxjijGy_QQ&s"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "DNAtek Solutions mengubah ide kami menjadi kenyataan dengan tim yang sangat profesional. Hasilnya luar biasa!",
+      "name": "John Doe",
+      "role": "CEO, Tech Company"
+    },
+    {
+      "quote": "Layanan yang diberikan sangat memuaskan. Tim DNAtek sangat responsif dan hasilnya sesuai harapan.",
+      "name": "Jane Smith",
+      "role": "Founder, Startup"
+    },
+    {
+      "quote": "Kami sangat terkesan dengan kemampuan tim DNAtek dalam menghadirkan solusi teknologi yang inovatif. Terima kasih!",
+      "name": "Alice Johnson",
+      "role": "CTO, E-commerce"
+    }
+  ]
+}
