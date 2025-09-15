@@ -73,12 +73,51 @@ const Home = () => {
   useGlobalAnimations();
 
   return (
-    <div className='w-full bg-black'>
+    <div className='bg-black'>
       {/* Hero background */}
       <div className="absolute w-full">
         <div className="absolute w-full">
-          <div className="absolute w-1/3 h-92 bg-purple-500 rounded-full blur-[150px] top-0 right-10 opacity-30"></div>
-          <div className="absolute w-1/3 h-92 bg-blue-500 rounded-full blur-[150px] top-72 left-10 opacity-30"></div>
+
+         {/* Custom Wave Background */}
+{/* Custom Wave dengan Blur + Opacity */}
+<svg
+  className="absolute top-5 right-20 w-[150%] h-70 opacity-45 blur-2xl"
+  viewBox="0 0 1440 320"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill="#df1a3c" // biru gelap
+    d="
+      M0,160 
+      C180,220,360,100,540,160 
+      C720,220,900,120,1080,160 
+      C1260,200,1440,120,1620,160 
+      L1620,320 
+      L0,320 Z
+    "
+  />
+</svg>
+         {/* Custom Wave Background */}
+{/* Custom Wave dengan Blur + Opacity */}
+<svg
+  className="absolute top-50 left-20 w-[150%] h-70 opacity-45 blur-2xl"
+  viewBox="0 0 1440 320"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill="#1e3a8a" // biru gelap
+    d="
+      M0,160 
+      C180,220,360,100,540,160 
+      C720,220,900,120,1080,160 
+      C1260,200,1440,120,1620,160 
+      L1620,320 
+      L0,320 Z
+    "
+  />
+</svg>
+
+
         </div>
         <div className="relative w-full h-[300vh]">
           <Image
@@ -89,7 +128,7 @@ const Home = () => {
             priority
           />
           {/* Overlay untuk turunkan opacity */}
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-/50" />
         </div>
       </div>
 

@@ -5,6 +5,10 @@ import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
+import Image from "next/image"
+
+// ✅ pastikan file ada di: src/assets/image/company.jpg
+import companyLogo from "@/assets/image/dna.png"
 
 const menu = [
   { path: "#home", label: "Home" },
@@ -62,12 +66,18 @@ const AppNavbar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 w-full z-50">
-      <nav className="w-full flex justify-between items-center py-0.5 md:px-10 px-4 backdrop-blur-2xl">
-        {/* Logo */}
+      <nav className="w-full flex justify-between items-center py-2 md:px-10 px-4 backdrop-blur-2xl">
+        
+        {/* ✅ Logo pakai Image */}
         <div className="flex items-center min-w-24">
-          <span className="text-2xl font-bold text-blue-500">
-            DNA<span className="text-red-500">tek</span>
-          </span>
+          <Image
+            src={companyLogo}
+            alt="Company Logo"
+            width={120}
+            height={40}
+            className="object-contain cursor-pointer"
+            priority
+          />
         </div>
 
         {/* Menu */}
@@ -75,7 +85,7 @@ const AppNavbar = () => {
           {menu.map((item) => (
             <li key={item.path} className="relative">
               <Link href={item.path} onClick={(e) => handleScrollClick(e, item.path)}>
-                <span className="text-black hover:text-blue-500 transition-colors relative">
+                <span className="text-white">
                   {item.label}
                   <span
                     ref={(el) => {

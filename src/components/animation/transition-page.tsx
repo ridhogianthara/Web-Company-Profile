@@ -5,6 +5,10 @@ import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect } from 'react'
 import SmoothScrollProvider from './smoth-scroll';
 import { useGlobalAnimations } from '@/hooks/useGlobalAnimations';
+import Image from "next/image";
+
+// ✅ pastikan file ada di: src/assets/image/dna.png
+import dnaLogo from "@/assets/image/dna.png";
 
 export const TransitionAnimate = ({ children }: { children: React.ReactNode }) => {
     useEffect(() => {
@@ -17,9 +21,19 @@ export const TransitionAnimate = ({ children }: { children: React.ReactNode }) =
             <div id="banner-2" className="min-h-screen w-1/4 fixed top-0 left-1/4 bg-black z-10 border-t border-b"></div>
             <div id="banner-3" className="min-h-screen w-1/4 fixed top-0 left-2/4 bg-black z-10 border-t border-b"></div>
             <div id="banner-4" className="min-h-screen w-1/4 fixed top-0 left-3/4 bg-black z-10 border-t border-b"></div>
+            
+            {/* ✅ Logo transition pakai gambar */}
             <div id='logo-transition-page' className="fixed w-full h-full top-0 left-0 right-0 z-20 flex items-center justify-center">
-                <span className='text-4xl font-bold text-indigo-500 split-text-repeat'>DNA<span className='text-red-500'>tek</span></span>
+                <Image
+                    src={dnaLogo}
+                    alt="DNA Logo"
+                    width={160}
+                    height={160}
+                    className="object-contain"
+                    priority
+                />
             </div>
+
             {children}
         </SmoothScrollProvider>
     )
@@ -41,6 +55,11 @@ export const TransitionLink = ({ href, label }: TransitionLinkProps) => {
     }
 
     return (
-        <button onClick={handleCklik} className="px-3 py-2 text-white hover:bg-gray-700 rounded-md">{label}</button>
+        <button
+            onClick={handleCklik}
+            className="px-3 py-2 text-white hover:bg-gray-700 rounded-md"
+        >
+            {label}
+        </button>
     )
 }
